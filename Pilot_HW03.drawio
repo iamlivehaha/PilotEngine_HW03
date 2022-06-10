@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T08:32:03.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" version="17.1.3" etag="Jpwd-Zfqhp7EXcPp0_CA" type="github"><diagram id="jPUyhOrV5SqNjyBGk9Kf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-10T09:03:41.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="cTC4Sj4BnVwPdFZ-0Y7D" version="17.1.3" type="github">
+  <diagram id="jPUyhOrV5SqNjyBGk9Kf" name="Page-1">
+    <mxGraphModel dx="2524" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="138eJ2g4a-UKCfjiezDu-1" value="AnimationPose" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-37.5" y="110" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="138eJ2g4a-UKCfjiezDu-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="138eJ2g4a-UKCfjiezDu-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-4" value="blend" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="138eJ2g4a-UKCfjiezDu-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="138eJ2g4a-UKCfjiezDu-5" target="138eJ2g4a-UKCfjiezDu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-5" value="AnimationComponent" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="290" width="282.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-6" value="AnimationComponentRes m_animation_res;&#xa;Skeleton m_skeleton;&#xa;AnimationResult m_animation_result;&#xa;AnimationFSM m_animation_fsm;&#xa;json11::Json::object m_signal;&#xa;float m_ratio {0};" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="138eJ2g4a-UKCfjiezDu-5">
+          <mxGeometry y="26" width="282.5" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="138eJ2g4a-UKCfjiezDu-10" target="138eJ2g4a-UKCfjiezDu-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="600" />
+              <mxPoint x="50" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.454;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="138eJ2g4a-UKCfjiezDu-10" target="138eJ2g4a-UKCfjiezDu-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ClipBase&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+Name&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+getLength()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="480" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BasicClip&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::string m_clip_file_path;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;float m_clip_file_length;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::string m_anim_skel_map_path;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="650" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="138eJ2g4a-UKCfjiezDu-13" target="138eJ2g4a-UKCfjiezDu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BlendState&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;span&gt;int m_clip_count;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::vector&amp;lt;std::string&amp;gt; m_blend_clip_file_path;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::vector&amp;lt;float&amp;gt; m_blend_clip_file_length;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::vector&amp;lt;std::string&amp;gt; m_blend_anim_skel_map_path;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::vector&amp;lt;float&amp;gt; m_blend_weight;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::vector&amp;lt;std::string&amp;gt; m_blend_mask_file_path;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::vector&amp;lt;float&amp;gt; m_blend_ratio;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="650" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BlendSpace1D&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;span&gt;std::string m_key;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::vector&amp;lt;double&amp;gt; m_values;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="695" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-18" value="&lt;font style=&quot;font-size: 16px&quot;&gt;BlendSpace1D是一维的混合空间，继承于BlendState，它指定了一系列普通动画clip，并通过一个命名float变量在运行时计算clip的混合权重&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="810" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-19" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AnimationFSM&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;States m_state {States::_idle};&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;bool update();&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;std::string getCurrentClipBaseName();&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="280" width="225" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-25" value="&lt;span style=&quot;font-size: 16px ; text-align: center&quot;&gt;AnimationComponent将会调用状态机的update函数，将接收集到的信号传递给状态机&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="138eJ2g4a-UKCfjiezDu-29" value="&lt;div style=&quot;text-align: left ; font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;AnimationComponent将会调用getClipBaseName获得需要播放的ClipBase的名字(它可能是&lt;/font&gt;&lt;span&gt;BasicClip、BlendState、BlendSpace1D)并将计算该ClipBase的结果应用到物体的骨骼&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="292.5" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
